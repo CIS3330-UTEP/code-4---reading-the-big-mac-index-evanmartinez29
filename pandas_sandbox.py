@@ -37,8 +37,8 @@ df = pd.read_csv('big-mac-full-index.csv')
 
 # print((type(df['iso_a3']))
 
-country_code = '2008-06-01'
-query_text = f"date == @country_code" #can also use query_text = f"iso_a3 == 'USA'"
+country_code = 'ARG'
+query_text = f"iso_a3 == @country_code" #can also use query_text = f"iso_a3 == 'USA'"
 df_arg = df.query(query_text)
 
 print(round(df_arg['dollar_price'].mean(), 2))
