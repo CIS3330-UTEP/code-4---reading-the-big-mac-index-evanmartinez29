@@ -38,10 +38,10 @@ def get_the_most_expensive_big_mac_price_by_year(year):
     return high_price_f
 
 if __name__ == "__main__":
-    mac_price_year = get_big_mac_price_by_year(2010,"ARG")
+    mac_price_year = get_big_mac_price_by_year(2016,"CHN")
     
-    mac_price_coutry = get_big_mac_price_by_country("MEX")
+    mac_price_coutry = get_big_mac_price_by_country("")
 
-    mac_low_price_year = get_the_cheapest_big_mac_price_by_year(2008)
+    mac_low_price_year = get_the_cheapest_big_mac_price_by_year(2004)
 
-    mac_high_price_year = get_the_most_expensive_big_mac_price_by_year(2003)
+    mac_high_price_year = get_the_most_expensive_big_mac_price_by_year(2010)

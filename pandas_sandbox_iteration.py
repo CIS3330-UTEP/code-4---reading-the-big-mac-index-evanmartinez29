@@ -40,3 +40,4 @@ def get_new_name(row):
 
 df['new_name'] = df.apply(get_new_name, axis=1)
 print(df)
+
